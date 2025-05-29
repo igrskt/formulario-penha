@@ -1,4 +1,6 @@
-
+#penha{
+    width: 30%;
+}
 
 header{
     background-color: #efb475;
@@ -15,7 +17,10 @@ header{
 }
 
 body{
-    background: linear-gradient(-120deg, #cf5218, #e4c27a);
+    background: linear-gradient(-120deg, #020202, #f17007);
+    background-image: url(unnamed.jpg) ;
+    align-items: center;
+    
 }
 
 body,
@@ -34,7 +39,7 @@ textarea{
 .form_box{
     display: flex;
     flex-direction: column;
-    background-color: #e9c998;
+    background-color: #fff;
     border-radius: 8px;
     width: 700px;
 }
@@ -44,7 +49,7 @@ textarea{
     padding: 24px 32px;
     font-size: 24px;
     border-bottom: thin solid #a5a5a5;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .form_box
@@ -93,7 +98,7 @@ textarea{
     width: 180px;
     height: 48px;
     border-radius: 8px;
-    background-color: #ee994a;
+    background-color: #efb475;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
